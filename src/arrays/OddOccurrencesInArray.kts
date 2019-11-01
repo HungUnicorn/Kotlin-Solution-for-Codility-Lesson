@@ -1,7 +1,5 @@
 package arrays
 
-import kotlin.assert as assert1
-
 fun solution(A: IntArray): Int {
     if (A.size == 1) {
         return A[0]
