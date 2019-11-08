@@ -17,7 +17,7 @@ fun solution(N: Int, P: IntArray, Q: IntArray): IntArray {
 
     val limit = getLimit(N, Q)
 
-    val cumulativeNumSemiPrimes = getCumulativeNumSemiPrices(limit)
+    val cumulativeNumSemiPrimes = getCumulativeNumSemiPrimes(limit)
 
     for (i in P.indices) {
         val numSemiPrimes = cumulativeNumSemiPrimes[Q[i]] - cumulativeNumSemiPrimes[P[i]-1]
@@ -64,7 +64,7 @@ fun getPrimes(sieved: Array<Boolean>): IntArray {
     return result.toIntArray()
 }
 
-fun getCumulativeNumSemiPrices(n: Int): List<Int> {
+fun getCumulativeNumSemiPrimes(n: Int): List<Int> {
     val sieved = sieveSimple(n / 2)
     val primes = getPrimes(sieved)
     val cumulativeNumSemiPrimes = Array(n + 1) { 0 }
