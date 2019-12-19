@@ -1,4 +1,4 @@
-package maxslice
+package i_maxslice
 
 import kotlin.math.max
 import kotlin.math.min

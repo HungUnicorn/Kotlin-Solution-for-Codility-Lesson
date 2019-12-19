@@ -1,4 +1,4 @@
-package greedy_algorithms
+package q_greedy_algorithms
 
 fun solution(K: Int, A: IntArray): Int {
     // write your code in Kotlin

@@ -1,4 +1,4 @@
-package time_complexity
+package c_time_complexity
 
 fun solution(A: IntArray): Int {
     val expected = (A.size.toDouble() + 1) * (A.size.toDouble() + 2) / 2

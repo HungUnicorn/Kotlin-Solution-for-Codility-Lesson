@@ -1,4 +1,4 @@
-package iterations
+package a_iterations
 
 fun solution(N: Int): Int {
     val zeroAndOnes = Integer.toBinaryString(N)

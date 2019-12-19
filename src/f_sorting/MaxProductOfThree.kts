@@ -1,4 +1,4 @@
-package sorting
+package f_sorting
 
 fun solution(A: IntArray): Int {
     A.sort()

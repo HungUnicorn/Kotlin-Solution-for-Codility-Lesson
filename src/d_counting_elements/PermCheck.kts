@@ -1,4 +1,4 @@
-package counting_elements
+package d_counting_elements
 
 fun solution(A: IntArray): Int {
     if (A.distinct().size != A.size) {

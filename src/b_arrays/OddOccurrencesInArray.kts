@@ -1,4 +1,4 @@
-package arrays
+package b_arrays
 
 fun solution(A: IntArray): Int {
     if (A.size == 1) {

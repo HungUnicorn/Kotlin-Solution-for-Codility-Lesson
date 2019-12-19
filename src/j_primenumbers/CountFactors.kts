@@ -1,4 +1,4 @@
-package primenumbers
+package j_primenumbers
 
 fun solution(N: Int): Int {
     var i = 1

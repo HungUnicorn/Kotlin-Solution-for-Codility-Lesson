@@ -1,4 +1,4 @@
-package euclidean_algorithm
+package m_euclidean_algorithm
 
 fun solution(N: Int, M: Int): Int {
     // write your code in Kotlin

@@ -1,4 +1,4 @@
-package counting_elements
+package d_counting_elements
 
 
 fun solution(X: Int, A: IntArray): Int {

@@ -1,4 +1,4 @@
-package sieve
+package l_sieve
 
 import kotlin.math.pow
 import kotlin.math.sqrt

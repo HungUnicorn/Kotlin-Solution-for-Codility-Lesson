@@ -1,4 +1,4 @@
-package prefix_sums
+package e_prefix_sums
 
 val limit = 1_000_000_000
 
